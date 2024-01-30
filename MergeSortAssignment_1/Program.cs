@@ -45,7 +45,6 @@ namespace MergeSortAssignment_1
             // Lets Calculate the middle index of the array
             // by dividing into two halves, left half and right half
             int midIndex = arr.Length / 2;
-            //Lets check the two subarrays one for the left half and one for the right half
             //Lets declare an array of integers called leftSubarray with the size equal to midIndex,
             //which is the middle index of the original array.
             int[] leftSubarray = new int[midIndex];
